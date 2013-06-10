@@ -339,7 +339,7 @@ $(function () {
     'use strict';
 
     //anslut till websocket
-    var websocket = new WebSocket('ws://dela.no-ip.biz:1341/', 'broadcast-protocol');
+    var websocket = new WebSocket('ws://dbwebb.se:1337/', 'broadcast-protocol');
 
     //vad göra vid anslutning
     websocket.onopen = function () {
