@@ -16,6 +16,6 @@ Därefter laddar du upp mappen space, alternativt enbart innehållet till din FT
 För att uppdatera dessa inställningar, får du redigera i ./js/main.js. Längst ner i filen finner du 
 
     //anslut till websocket
-    var websocket = new WebSocket('ws://dela.no-ip.biz:1341/', 'broadcast-protocol');
+    var websocket = new WebSocket('ws://dbwebb.se:1337/', 'broadcast-protocol');
 
 Denna adress kan du ändra för att få spelet att fungera bättre, OM det är så att du anser att det fungerar dåligt som det kommer.
